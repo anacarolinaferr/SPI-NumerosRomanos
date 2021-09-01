@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class ExemploEndPints {
+public class ExemploEndPoints {
 
     @GetMapping("/{nome}/{sobrenome}")
     public String nomePessoa(@PathVariable String nome, @PathVariable String sobrenome){
